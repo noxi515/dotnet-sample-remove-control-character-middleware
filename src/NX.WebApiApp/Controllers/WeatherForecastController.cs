@@ -1,9 +1,11 @@
+using System.Net.Mime;
 using Microsoft.AspNetCore.Mvc;
 
 namespace NX.WebApiApp.Controllers;
 
 [ApiController]
 [Route("[controller]")]
+[Produces(MediaTypeNames.Application.Json)]
 public class WeatherForecastController : ControllerBase
 {
     private static readonly string[] Summaries = new[]
@@ -28,5 +30,12 @@ public class WeatherForecastController : ControllerBase
             Summary = Summaries[Random.Shared.Next(Summaries.Length)]
         })
         .ToArray();
+    }
+
+    [HttpPost(Name = "CreateWeatherForecast")]
+    [Consumes(MediaTypeNames.Application.Json)]
+    public WeatherForecast Create(WeatherForecast model)
+    {
+        return model;
     }
 }
