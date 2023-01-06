@@ -7,11 +7,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{552541
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{B9DB88F8-4EB0-42A4-8FD6-C7205E4DD56D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NX.AspNetCore.Middlewares", "src\NX.AspNetCore.Middlewares\NX.AspNetCore.Middlewares.csproj", "{28F4C9B1-E4A2-4E71-BC4C-776393467F76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NX.AspNetCore.Middlewares", "src\NX.AspNetCore.Middlewares\NX.AspNetCore.Middlewares.csproj", "{28F4C9B1-E4A2-4E71-BC4C-776393467F76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NX.AspNetCore.Middlewares.Tests", "test\NX.AspNetCore.Middlewares.Tests\NX.AspNetCore.Middlewares.Tests.csproj", "{0068EACA-F048-4201-903F-F83E470C8AF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NX.AspNetCore.Middlewares.Tests", "test\NX.AspNetCore.Middlewares.Tests\NX.AspNetCore.Middlewares.Tests.csproj", "{0068EACA-F048-4201-903F-F83E470C8AF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NX.WebApiApp", "src\NX.WebApiApp\NX.WebApiApp.csproj", "{E7D5E36E-8927-4134-A483-A59D8DDE9B87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NX.WebApiApp", "src\NX.WebApiApp\NX.WebApiApp.csproj", "{E7D5E36E-8927-4134-A483-A59D8DDE9B87}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ソリューション項目", "ソリューション項目", "{F76DD65E-1F93-45ED-8A2C-87FEBEFB98DB}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
